@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+.page-inner{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    background-image: url("./dice-image/dice22.webp");
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 20px;
+}
+.dice-container{
+    width: 100%;
+    /* margin: 40px 0px; */
+    color: antiquewhite;
+    padding: 20px;
+    border: 10px solid red;
+    width: fit-content;
+}
+.heading{
+    margin: 30px 0;
+    color: ghostwhite;
+}
+.dice{
+    font-size: 4em;
+    color: red;
+}
+.img{
+    /* display: none; */
+    width: 140px;
+    height: 100px;
+}
+.congratulation{display: none;}
+.btn{ width: 100px;
+background-color: white;
+border-radius: 20px;
+font-size: 20px;
+font-weight: bolder;
+padding: 8px 0;
+margin-top: 20px;
+cursor: pointer;
+border: unset;
+box-shadow:6px 2px 8px 3px black;}
+.btn:hover{
+    background: greenyellow;
+    transition: 2s;
+    color: grey;
+}
